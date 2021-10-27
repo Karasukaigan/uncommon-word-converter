@@ -7,4 +7,4 @@
 1.安装Node.js  
 2.安装cnpm  
 3.运行**install.bat**安装Express  
-4.运行**run.bat**  
+4.运行**run.bat**启动  
