@@ -6,6 +6,7 @@
     <title>生僻字转换器</title>
     <link rel="stylesheet" type="text/css" href="public/css/reset.min.css">
     <link rel="stylesheet" type="text/css" href="public/css/main.min.css">
+    <!-- <script src="https://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"> -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script>$(document).ready(function(){var n=1;$("#change-button").click(function(){var str=$("#input-box").val();$.ajax({url:"/main?str="+str,dataType:"text",success:function(result){if(result!=="-1"){$("#output-box").append("<div>"+n+". "+str+" > "+result+"</div>");n+=1}else{alert("错误：输入为空！")}}})});$("#clear-button").click(function(){$("#input-box").val("")})});</script>
 </head>
