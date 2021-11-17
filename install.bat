@@ -1,6 +1,6 @@
 @echo off
 chcp 65001
-title 生僻字转换器
+title 生僻字转换器2.0.0
 echo Author：Karasukaigan
 echo GitHub：https://github.com/Karasukaigan
 cnpm install express --save
